@@ -1,7 +1,5 @@
 # 01 — Titanic: Exploratory Data Analysis
 
-**Phase 1 · Project 1 of 2**
-
 ---
 
 ## The question
