@@ -33,21 +33,21 @@ This project is a deep exploratory analysis of the Titanic passenger dataset. Th
 
 ## Key findings
 
-> *(Fill these in as you complete the analysis)*
 
-- **Finding 1:** Women survived at a rate of X% vs Y% for men
-- **Finding 2:** First-class passengers were Xx more likely to survive than third-class
-- **Finding 3:** Children under 10 had a survival rate of X%
+**Finding 1:** Women survived at ~74% vs ~19% for men — a gap driven by the
+"women and children first" evacuation policy enforced by the crew.
+**Finding 2:** 1st class passengers survived at ~63% vs ~24% for 3rd class —
+wealth and deck proximity to lifeboats were life-or-death advantages.
+**Finding 3:** Children under 10 had disproportionately high survival rates,
+ while passengers aged 60+ had the worst outcomes of any age group.
 
 ---
 
 ## Visualizations
 
-> *(Embed your saved chart images here — save them to figures/ then link below)*
-
 | Survival by class | Survival by sex | Age distribution |
 |:-:|:-:|:-:|
-| ![class](C:\Users\HP\Desktop\AI-ML\Phase_1\ml-portfolio\eda-titanic\figuressurvival_class_sex.png) | ![sex](figures/survival_by_sex.png) | ![age](figures/age_distribution.png) |
+| ![class](figures/survival_class_sex.png) | ![sex](figures/survival_by_group.png) | ![age](figures/age_distribution.png) |
 
 ---
 
@@ -67,7 +67,7 @@ Open the notebook: [notebook.ipynb](notebook.ipynb)
 ## How to run
 
 ```bash
-cd 01-eda-titanic
+cd eda-titanic
 pip install -r requirements.txt
 # Download train.csv from Kaggle and place in data/raw/
 jupyter notebook notebook.ipynb
@@ -77,13 +77,14 @@ jupyter notebook notebook.ipynb
 
 ## What I learned
 
-> *(Fill this in when complete)*
-
-- How to systematically audit a dataset for quality issues before analysis
-- The difference between missing-at-random vs missing-not-at-random
-- How to use Seaborns hue parameter to reveal interaction effects
-- Why understanding your data matters more than choosing the right model
-
+- Running my first real EDA taught me that understanding missingness matters before
+  anything else — Cabin being 77% missing is a data quality issue, not just a gap to fill
+- Seaborn's `hue` parameter revealed interaction effects I wouldn't have seen in a
+  simple bar chart — sex and class together told a much richer story than either alone
+- The port of embarkation appeared significant until I realized it was a proxy for
+  passenger class — a reminder that correlation is not causation
+- Gradient of survival across age groups showed "children first" was real in the data,
+  not just a historical claim
 ---
 
 ## Tech stack
