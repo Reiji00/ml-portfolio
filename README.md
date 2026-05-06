@@ -27,8 +27,8 @@ I document what I built, what broke, and what I learned.
 
 | # | Project | Topics | Status |
 |---|---------|--------|--------|
-| 01 | [Titanic — Exploratory Data Analysis](./eda-titanic/) | Pandas · Seaborn · Storytelling | 🟡 In progress |
-| 02 | [Gradient Descent Visualizer](./gradient-descent-viz/) | NumPy · Matplotlib · Calculus | 🟡 In progress |
+| 01 | [Titanic — Exploratory Data Analysis](./eda-titanic/) | Pandas · Seaborn · Storytelling | 🟢 Complete |
+| 02 | [Gradient Descent Visualizer](./gradient-descent-viz/) | NumPy · Matplotlib · Calculus | 🟢 Complete |
 
 **Status key:** 🟢 Complete · 🟡 In progress · 🔜 Up next
 
