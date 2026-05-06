@@ -38,8 +38,8 @@ I document what I built, what broke, and what I learned.
 
 | Phase | Topics | Status |
 |-------|--------|--------|
-| 1 — Foundations | Python · NumPy · Pandas · Math | 🟡 Current |
-| 2 — Classical ML | scikit-learn · Feature engineering · Pipelines | 🔜 |
+| 1 — Foundations | Python · NumPy · Pandas · Math | 🟢 Done |
+| 2 — Classical ML | scikit-learn · Feature engineering · Pipelines | 🟡 Current |
 | 3 — Deep Learning | PyTorch · CNNs · Transfer learning | 🔜 |
 | 4 — LLMs | Hugging Face · RAG · Fine-tuning | 🔜 |
 | 5 — MLOps | FastAPI · Docker · MLflow · Cloud | 🔜 |
