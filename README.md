@@ -19,7 +19,7 @@ Each project is a complete, documented piece of work — not a tutorial copy.
 I document what I built, what broke, and what I learned.
 
 **Current phase:** Phase 1 — Foundations  
-**Location:** Guwahati, India  
+**Location:** Dimapur, India  
 
 ---
 
